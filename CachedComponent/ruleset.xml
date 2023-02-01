@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<ruleset name="CachedComponent">
+    <description>The code standard for CachedComponent.</description>
+</ruleset>

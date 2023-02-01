@@ -1,13 +1,13 @@
 <?php
 
-namespace someStandart\Sniffs\Formatting;
+namespace CachedComponent\Sniffs\Formatting;
 
-use someStandart\Sniffs\BaseSniff;
+use CachedComponent\Sniffs\BaseSniff;
 use PHP_CodeSniffer\Sniffs\Sniff;
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;
 
-class EmptyLineBeforeReturnSniff implements Sniff {
+class InitCacheGetListSniff implements Sniff {
     public function register() {
         return Tokens::$functionNameTokens;
     }
